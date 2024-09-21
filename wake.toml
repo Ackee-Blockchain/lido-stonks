@@ -7,3 +7,6 @@ exclude = []
 ignore_paths = ["venv", ".venv", "test", "contracts/test"]
 exclude_paths = ["node_modules", "lib", "script"]
 
+[detector."divide-before-multiply"]
+verbose = true
+
