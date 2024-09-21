@@ -1,0 +1,9 @@
+[compiler.solc]
+exclude_paths = ["node_modules", "venv", ".venv", "lib", "script", "test"]
+include_paths = ["node_modules"]
+
+[detectors]
+exclude = []
+ignore_paths = ["venv", ".venv", "test", "contracts/test"]
+exclude_paths = ["node_modules", "lib", "script"]
+
